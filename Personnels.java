@@ -87,7 +87,7 @@ public class Personnels extends Employe implements ProductionRisquesInterface, M
 			System.out.println("the data inserted sucssesfuly !!!!!!");
 			
 		} catch (SQLException e) {
-			System.err.println(e);
+			System.out.println("this name is already existe");
 		}
 	}
 	
